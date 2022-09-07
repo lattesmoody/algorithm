@@ -35,6 +35,31 @@ console.log("4. ", arr4);
 
 // [배열 요소 추가, 삭제]
 
+const arr5 = [1,2,3];
+console.log(arr5);
+
+// 5-1. 배열 끝에 4 추가
+arr5.push(4); // O(n)
+
+// 5-2. 여러 개의 수를 한 번에 추가
+arr5.push(5,6);
+console.log("5. ",arr5);
+
+// 5-3. 인덱스 3번에 128 추가
+arr5.splice(3,0,128); // O(n)
+console.log("6. ",arr5);
+
+// 5-4. 인덱스 3번 값 제거.
+arr5.splice(3,1);
+console.log("7. ",arr5[3]);
+
+// [자바스크립트 특이점]
+// 자바스크립트의 배열은 동적이다.
+// 문자열이나 논리값도 들어갈 수 있음. 
+
+
+
+
 
 const Index = () => {
     return (
