@@ -30,3 +30,19 @@
 
 # custom
 .next/*
+.next/build-manifest.json
+.next/trace
+.next/cache/webpack/client-development/index.pack
+.next/cache/webpack/server-development/index.pack
+.next/server/_error.js
+.next/server/middleware-build-manifest.js
+.next/server/pages-manifest.json
+.next/server/webpack-runtime.js
+.next/server/pages/index.js
+.next/static/chunks/_error.js
+.next/static/chunks/webpack.js
+.next/static/chunks/pages/index.js
+.next/static/development/_buildManifest.js
+.next/static/webpack/d6afbf34f4ba0720.webpack.hot-update.json
+.next/static/webpack/webpack.d6afbf34f4ba0720.hot-update.js
+.next/static/webpack/webpack.d8c33be5ff595feb.hot-update.js
