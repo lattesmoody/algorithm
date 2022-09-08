@@ -1,3 +1,5 @@
+import { useInsertionEffect } from "react";
+
 const Index = () => {
   return (
     <>
@@ -7,3 +9,4 @@ const Index = () => {
 };
 
 export default Index;
+
