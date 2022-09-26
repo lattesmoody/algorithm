@@ -29,6 +29,7 @@
 # End of https://www.toptal.com/developers/gitignore/api/visualstudiocode
 
 # custom
+.node_modules/*
 .next/*
 .next/build-manifest.json
 .next/trace
